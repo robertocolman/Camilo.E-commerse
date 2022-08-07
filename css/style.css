@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html{
+    font: size 62.5%;
+    font-family: 'nunito', Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    color: white;
+    background-color: #ff5d77;
+    
+}
+
+    nav ul{
+        list-style: none;
+    }
+
+    nav ul li a{
+        color: #ffff;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        
+    }
+
+section{
+    color: white;
+    background-color: #f1f1f1;
+   
+    
+}
+    section p{
+        color:black;
+        
+        
+    }
+
+    section ul li p{
+        font-size: 1.5rem;
+    }
+
+    section a{
+        color: #46bbe9;
+        text-decoration: none;
+        
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+header{
+    background-color: #fffbfb;
+}
+
+main{
+    background-color: #fffbfb;
+}
+
+
+footer{
+    background-color: #f1f1f1;
+    
+}
+
+.text-center{
+    text-align: center;
+}
