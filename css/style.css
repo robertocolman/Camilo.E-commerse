@@ -6,9 +6,15 @@ html{
 }
 
 nav{
+    border: 4px black dashed; /* esto es nuevo */
     color: white;
     background-color: #ff5d77;
+    margin: 10px 60px 30px 60px; /* esto es nuevo */
     
+}
+
+    nav a img{
+        padding: 15px 0px 0px 15px; /* esto es nuevo */
 }
 
     nav ul{
@@ -43,7 +49,6 @@ section{
     section a{
         color: #46bbe9;
         text-decoration: none;
-        
         font-size: 1.2rem;
         font-weight: 400;
     }
@@ -59,9 +64,14 @@ main{
 
 footer{
     background-color: #f1f1f1;
+}
+
+footer a img{
+    width: 90px;
+    height: 90px;
     
 }
 
-.text-center{
+.footer{
     text-align: center;
 }
