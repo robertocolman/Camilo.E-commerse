@@ -3,30 +3,38 @@
 *{
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 html{
-    font: size 62.5%;
+    font-size: 62.5%;
     font-family: 'nunito', Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url(../img/fondo2.png);
+    background-repeat: space;
 }
 
 nav{
     color: white;
-        
+    height: 110px;
+    
 }
-
-    nav h1{
-        margin-left: 100px; 
-    }
 
     nav a img{
         width: 70px;
         height: 90px;
-        padding: 15px 15px;
-}
+        padding: 7px 20px;
+        float: left;
+        
+    }
+
+    nav ul{
+        padding: 40px 60px;
+    }
 
     nav ul li{
-        list-style: none;
         display: inline-block;
 		margin-left: 30px;
     }
@@ -35,9 +43,9 @@ nav{
             color: #ffff;
             text-decoration: none;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 1rem;
+            font-size: 2.3rem;
             font-weight: 400px;
-        
+            
         }
 
             nav ul li a:hover{
@@ -45,42 +53,66 @@ nav{
                 text-decoration: underline;
             }
 
-section{
-    color: white;
+main{
     background-color: #f1f1f1;
-    margin: 15px 80px;
-
+    margin: 15px 150px;
+    border-top: solid #8a8989 3px;
+    border-bottom: solid #8a8989 3px;
+    display: inline-flex;
+    
 }
 
-    section p{
+    main section p{
         color:black;
         
-        
     }
 
-    section ul {
-        border-top: solid #8a8989 3px;
+    main section ul {
+        margin: 5px 139.9px;
         padding: 5px 20px;
+        
+       
     }
         
-        section ul li p{
-            font-size: 1.5rem;
+        main section ul li p{
+        font-size: 2.7rem;
+        
         }
 
-    section a{
+        main section ul li a{
+            font-size: 2rem;
+        }
+
+    main section a{
         color: #46bbe9;
         text-decoration: none;
         font-size: 1.2rem;
         font-weight: 400;
     }
-        section a:hover{
+        main section a:hover{
             color: black;
             text-decoration: underline;
         }
 
 header{
-    background-color: #fffbfb;
+    background-color: #fdfdfd;
+    margin: 5px 150px;
+    height: 450px;
+    border-top: solid #f7f5f5 3px;
+    border-bottom: solid #f7f5f5 3px;
 }
+
+    header img{
+        margin: 30px 30px;
+        width: 17cm;
+        height: 10cm;
+        float: left;
+    }
+
+    header h2{
+        margin: 150px 40px;
+        font-size: 2.7rem;
+    }
 
 main{
     background-color: #fffbfb;
@@ -89,18 +121,45 @@ main{
 
 footer{
     background-color: #f1f1f1;
+    text-align: center;
+    margin: 15px 150px;
+    padding: 10px 10px;
+    border-top: solid #8a8989 3px;
+    border-bottom: solid #8a8989 3px;
 }
 
-footer a img{
+    footer h3{
+        padding-bottom: 5px;
+        font-size: 2rem;
+    }
+
+    footer a img{
     width: 90px;
     height: 90px;
-    
-}
-
-.footer{
-    text-align: center;
 }
 
 .bgPink{
     background-color: #ff5d77;
 }
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+#textoPrincipal{
+    margin-left: 40px;
+    padding: 45px 
+}
+
