@@ -22,13 +22,13 @@ nav{
     
 }
 
-    nav h1{
+    /* nav h1{
         font-size: 2rem;
         padding-top: 45px;
-    }
+    } */
 
     nav a img{
-        width: 70px;
+        width: 300px;
         height: 90px;
         padding: 7px 20px;
         float: left;
@@ -36,12 +36,14 @@ nav{
     }
 
     nav div ul{
-        padding-right: 60px;
+        padding-right: 40px;
     }
 
     nav ul li{
         display: inline-block; 
-		margin-left: 30px;
+		margin-top: 40px;
+        margin-left: 20px;
+
     }
 
         nav ul li a{
@@ -155,8 +157,8 @@ footer{
     text-align: right;
 }
 
-.text-center{
-    text-align: center;
+.text-justify{
+    text-align: justify;
 }
 
 .text-left{
