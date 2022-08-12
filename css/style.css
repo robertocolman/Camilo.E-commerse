@@ -22,13 +22,13 @@ nav{
     
 }
 
-    /* nav h1{
+    nav h1{
         font-size: 2rem;
         padding-top: 45px;
-    } */
+    }
 
     nav a img{
-        width: 300px;
+        width:80px;
         height: 90px;
         padding: 7px 20px;
         float: left;
@@ -41,7 +41,6 @@ nav{
 
     nav ul li{
         display: inline-block; 
-		margin-top: 40px;
         margin-left: 20px;
 
     }
@@ -109,21 +108,17 @@ header{
     border-bottom: solid #f7f5f5 3px;
 }
 
-    header img{
+    .indexMainImage{
         margin: 30px 30px;
         width: 17cm;
         height: 10cm;
         float: left;
     }
 
-    header h2{
+    .indexMainText{
         margin: 150px 40px;
         font-size: 2.7rem;
     }
-
-main{
-    background-color: #fffbfb;
-}
 
 
 footer{
@@ -164,9 +159,3 @@ footer{
 .text-left{
     text-align: left;
 }
-
-#textoPrincipal{
-    margin-left: 40px;
-    padding: 45px 
-}
-
