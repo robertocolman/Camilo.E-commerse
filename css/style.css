@@ -17,26 +17,27 @@ body{
 }
 
 nav{
-    color: white;
+    background-color: #ff5d77;
     height: 110px;
     
 }
-
-    nav h1{
-        font-size: 2rem;
-        padding-top: 45px;
-    }
 
     nav a img{
         width:80px;
         height: 90px;
         padding: 7px 20px;
         float: left;
-        
     }
 
-    nav div ul{
+    nav h1{
+        color: white;
+        font-size: 2rem;
+        padding-top: 45px;
+    }
+
+    nav ul{
         padding-right: 40px;
+        text-align: right;
     }
 
     nav ul li{
@@ -68,37 +69,27 @@ main{
     
 }
 
-    main section p{
-        color:black;
-        
-    }
-
     main section ul {
         margin: 5px 139.9px;
         padding: 5px 20px;
-        
-       
     }
-        
+    
         main section ul li p{
-        font-size: 2.7rem;
-        
+            color:black;
+            font-size: 2.7rem;
         }
 
         main section ul li a{
+            color: #46bbe9;
+            text-decoration: none;
             font-size: 2rem;
+            font-weight: 400;
         }
 
-    main section a{
-        color: #46bbe9;
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-weight: 400;
-    }
-        main section a:hover{
-            color: black;
-            text-decoration: underline;
-        }
+            main section ul li a:hover{
+                color: black;
+                text-decoration: underline;
+            }
 
 header{
     background-color: #fdfdfd;
@@ -140,16 +131,8 @@ footer{
     height: 90px;
 }
 
-.bgPink{
-    background-color: #ff5d77;
-}
-
 .text-center{
     text-align: center;
-}
-
-.text-right{
-    text-align: right;
 }
 
 .text-justify{
@@ -159,3 +142,5 @@ footer{
 .text-left{
     text-align: left;
 }
+
+/* Termina index.html */
