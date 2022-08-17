@@ -43,7 +43,6 @@ nav{
     nav ul li{
         display: inline-block; 
         margin-left: 20px;
-
     }
 
         nav ul li a{
@@ -91,7 +90,7 @@ main{
                 text-decoration: underline;
             }
 
-header{
+.mainContents{
     background-color: #fdfdfd;
     margin: 5px 150px;
     height: 450px;
@@ -144,3 +143,73 @@ footer{
 }
 
 /* Termina index.html */
+
+/* productos */
+
+#products{
+    background-color: #fdfdfd;
+    margin: 5px 150px;
+    height: 450px;
+    border-top: solid #f7f5f5 3px;
+    border-bottom: solid #f7f5f5 3px;
+}
+
+    #products .gallery{
+    margin: 20px;
+    }
+
+    #products .galleryProduct1{
+        margin: 30px 315px;
+        width: 150px;
+        height: 300px;
+        padding-left: 20;
+        float: left;
+    }
+
+    #products .galleryProduct2{
+        margin: 30px 305px;
+        width: 150px;
+        height: 300px;
+        padding-left: 20;
+        float: right;
+    }
+
+    #products .namePrice{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+/* Nosotros */
+
+.aboutImage{
+    width: 500px;
+    height: 300px;
+    margin: 10px 550px;
+}
+
+.aboutH2{
+    font-size: 4rem;
+}
+
+.aboutP{
+    font-size: 2rem;
+    margin: 5px 100px;
+}
+
+/* contactos */
+
+.contact{
+    background-color: #fdfdfd;
+    margin: 5px 150px;
+    height: 450px;
+    border-top: solid #f7f5f5 3px;
+    border-bottom: solid #f7f5f5 3px;
+}
+
+    .contactForm{
+        margin: 70px 680px;
+    }
+
+    .contactSize{
+        font-size: 2rem;
+    }
