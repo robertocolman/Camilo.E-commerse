@@ -9,11 +9,14 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="../index.html">
-            <img src="../img/logo2.png" alt="Logo de camilo E-commerce">
-        </a>
-        <h1>Camilo E-commerce</h1>
+    <div class="gridContainer">
+    <nav class="container justifyContentSpeceBetween" id="nav">
+        <div class="container">
+            <a href="../index.html">
+                <img src="../img/logo2.png" alt="Logo de camilo E-commerce">
+            </a>
+            <h1>Camilo E-commerce</h1>
+        </div>
         <ul>
             <li>
                 <a href="../index.html">Inicio</a>
@@ -24,11 +27,11 @@
             <li>
                 <a href="../Contacto.html">Contacto</a>
             </li>
-        </ul>
+        </ul> 
     </nav>
-    <main>
+    <header class="container justifyContentSpaceAround" id="header">
         <section>
-            <ul>
+            <ul >
                 <li>
                     <p>Articulos para viaje</p>
                     <a href="articulos-viaje.html">Ver productos</a>
@@ -51,61 +54,85 @@
                 </li>
             </ul>
         </section>
-    </main>
-    <main id="products">
-        <section class="gallery">
+    </header>
+    <aside id="sideBar">
+        <h2>FILTROS</H2>
+        <ul>
+            <li>
+                <h3>Snack</h3>
+            </li>
+            <li>
+                <h3>Fruta Secas</h3>
+            </li>
+            <li>
+                <h3>Barrita de cereales</h3>
+            </li>
+            <li>
+                <h3>Botella de agua</h3>
+            </li>
+        </ul>
+    </aside>
+    <main id="main">
+        <div class="offer">
+            <center><img src="../img/oferta.jpg" alt=""></center>
+        </div>
+            <div class="gallery">
             <figure>
-                <img src="../img/alimentos/producto1.jpg"class="galleryProduct1" alt="">
-                <figcaption class="namePrice">Nueces Mariposas x1kg</figcaption>
-                <p class="namePrice">$2400</p>
+                <img src="../img/alimentos/producto1.jpg" alt="Producto">
+                <p>Nueces x1kg</p>
+                <p>$2.700,00</p>
             </figure>
-        </section>
-        <section class="gallery">
             <figure>
-                <img src="../img/alimentos/producto2.jpg" class="galleryProduct2" alt="">
-                <figcaption class="namePrice">Mani Pelado Tostado Con Sal X 1kg</figcaption>
-                <p class="namePrice">$1480</p>
+                <img src="../img/alimentos/producto2.jpg" alt="Producto">
+                <p>Banana deshidratada x1kg</p>
+                <p>$800,00</p>
             </figure>
-        </section>
+            <figure>
+                <img src="../img/alimentos/producto3.jpg" alt="Producto">
+                <p>Almendras x1kg</p>
+                <p>$2.599,99</p>
+            </figure>
+        </div>
+        <div class="gallery">
+            <figure>
+                <img src="../img/alimentos/producto4.png" alt="Producto">
+                <p>Mantequilla de maní</p>
+                <p>$349,00</p>
+            </figure>
+            <figure>
+                <img src="../img/alimentos/producto5.png" alt="Producto">
+                <p>Barritas de proteina x10 unidades</p>
+                <p>$2.800,00</p>
+            </figure>
+            <figure>
+                <img src="../img/alimentos/producto6.png" alt="Producto">
+                <p>Avena instantánea x500gr</p>
+                <p>$391,00</p>
+            </figure>
+        </div>
+        <div class="gallery">
+            <figure>
+                <img src="../img/alimentos/producto7.png" alt="Producto">
+                <p>Leche en polvo x8 litros</p>
+                <p>$1.200,00</p>
+            </figure>
+            <figure>
+                <img src="../img/alimentos/producto8.png" alt="Producto">
+                <p>Arroz Largo Fino Integral Grano Elegido X 1kg</p>
+                <p>380,00</p>
+            </figure>
+            <figure>
+                <img src="../img/alimentos/producto9.png" alt="Producto">
+                <p>Agua mineral Glaciar sin gas botella 2 L</p>
+                <p>$1370,00</p>
+            </figure>
+        </div>
+        <div class="contador">
+            <h2>1 - 2 - 3 - 4 - 30></h2>
+        </div>
     </main>
-    <!-- <main>
-        <h2>Lista de productos</h2>
-        <table border="5px" cellpadding="5px" cellspacing="5px">
-            <tr>
-                <th>Modelo</th>
-                <th>Codigo</th>
-                <th>Precio</th>
-            </tr>
-            <tr>
-                <td>Nueces Mariposas x1kg</td>
-                <td>005</td>
-                <td>$2400</td>
-            </tr>
-                
-        </table>
-        <img src="../img/alimentos/producto1.jpg" alt="Articulo 1">
-        <h2>Nueces Mariposas Extra Light</h2>
-        <h3>NUECES MARIPOSAS CHANDLER EXTRA LIGHT X 1 KG
-
-            LA MEJOR CALIDAD DEL MERCADO
-            
-            ORIGEN: ARGENTINA</h3>
-        
-        <table border="5px" cellpadding="5px" cellspacing="5px">  
-            <tr>
-                    <td>Mani Pelado Tostado Con Sal X 1kg</td>
-                    <td>006</td>
-                    <td>$1481</td>
-            </tr>
-        </table>
-        <br>
-        <img src="../img/alimentos/producto2.jpg" alt="producto 2">
-        <h2>Mani Pelado Tostado Con Sal</h2>
-        <h3>MANI REPELADO TOSTADO CON SAL X 1KG
-            ORIGEN: ARGENTINA
-            </h3>
-    </main> -->
-    <footer class="text-center"> 
+    </div>
+    <footer class="text-center" id="pie"> 
         <h3>
             Seguinos en nuestras redes sociales
         </h3>

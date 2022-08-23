@@ -9,6 +9,7 @@
 html{
     font-size: 62.5%;
     font-family: 'nunito', Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
 
 body{
@@ -16,10 +17,22 @@ body{
     background-repeat: space;
 }
 
+.container{
+    display: flex;
+}
+
+.justifyContentSpeceBetween{
+    justify-content: space-between;
+}
+
+.justifyContentRight{
+    justify-content: right;
+}
+
 nav{
     background-color: #ff5d77;
-    height: 110px;
-    
+    align-items: center;
+    position: sticky;
 }
 
     nav a img{
@@ -36,13 +49,14 @@ nav{
     }
 
     nav ul{
-        padding-right: 40px;
+        padding-right: 15px;
         text-align: right;
+        display: flex;
     }
 
     nav ul li{
-        display: inline-block; 
-        margin-left: 20px;
+       display: inline-block;
+       margin-left: 30px;
     }
 
         nav ul li a{
@@ -57,43 +71,48 @@ nav{
             nav ul li a:hover{
                 color: black;
                 text-decoration: underline;
-            }
+            } 
 
-main{
+header{
     background-color: #f1f1f1;
-    margin: 15px 150px;
+    margin: 15px 7.8%;
     border-top: solid #8a8989 3px;
     border-bottom: solid #8a8989 3px;
-    display: inline-flex;
-    
 }
 
-    main section ul {
-        margin: 5px 139.9px;
-        padding: 5px 20px;
+.justifyContentSpaceAround{
+    justify-content: space-around;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+     header section ul {
+        margin: 5px auto;
     }
     
-        main section ul li p{
+        header section ul li p{
             color:black;
             font-size: 2.7rem;
         }
-
-        main section ul li a{
+        
+        header section ul li a{
             color: #46bbe9;
             text-decoration: none;
             font-size: 2rem;
             font-weight: 400;
-        }
+        } 
 
-            main section ul li a:hover{
+            header section ul li a:hover{
                 color: black;
                 text-decoration: underline;
             }
 
 .mainContents{
     background-color: #fdfdfd;
-    margin: 5px 150px;
-    height: 450px;
+    margin: 5px 7.8%;
+    /* height: 450px; */
     border-top: solid #f7f5f5 3px;
     border-bottom: solid #f7f5f5 3px;
 }
@@ -102,11 +121,10 @@ main{
         margin: 30px 30px;
         width: 17cm;
         height: 10cm;
-        float: left;
     }
 
     .indexMainText{
-        margin: 150px 40px;
+        margin: auto 3%;
         font-size: 2.7rem;
     }
 
@@ -114,15 +132,18 @@ main{
 footer{
     background-color: #f1f1f1;
     text-align: center;
-    margin: 15px 150px;
+    margin: 15px 7.8%;
     padding: 10px 10px;
-    border-top: solid #8a8989 3px;
-    border-bottom: solid #8a8989 3px;
+    border-top: solid #8a8989 4px;
+    border-bottom: solid #8a8989 4px;
 }
 
+.justifyContentCenter{
+    justify-content:center;
+}
     footer h3{
         padding-bottom: 5px;
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     footer a img{
@@ -142,42 +163,108 @@ footer{
     text-align: left;
 }
 
-/* Termina index.html */
-
-/* productos */
-
-#products{
-    background-color: #fdfdfd;
-    margin: 5px 150px;
-    height: 450px;
-    border-top: solid #f7f5f5 3px;
-    border-bottom: solid #f7f5f5 3px;
+.text-right{
+    text-align: right;
 }
 
-    #products .gallery{
-    margin: 20px;
-    }
+/* Termina index.html */
 
-    #products .galleryProduct1{
-        margin: 30px 315px;
-        width: 150px;
-        height: 300px;
-        padding-left: 20;
-        float: left;
-    }
+                /* AREA GRID */
+.gridContainer{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 15% 70% 15%);
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "aside main mian"
+    "pie pie pie";
+}
 
-    #products .galleryProduct2{
-        margin: 30px 305px;
-        width: 150px;
-        height: 300px;
-        padding-left: 20;
-        float: right;
-    }
+#nav{
+    grid-area: nav;    
+}
 
-    #products .namePrice{
-        text-align: center;
-        font-size: 3rem;
+#header{
+    grid-area: header;
+}
+
+#sideBar{
+    grid-area: aside;
+    margin-left: 50%;
+    padding-left: 5px;
+    padding-top: 40px;
+    font-size: 2.5rem;
+}
+
+#main{
+    grid-area: main;
+    margin-right: 9.2%;
+
+}
+
+#pie{
+    grid-area: pie;
+    margin-right: 6.7%;
+}
+
+                /* AREA GRID */
+
+    /* responsive */
+/* @media (min-width: 600px){
+    .gridContainer{
+        grid-template-columns: 200px auto;
+        grid-template-columns: 20% 20% 10% 30% 20%;
+        grid-template-areas:
+        "nav" 
+        "header"
+        "aside"
+        "main"
+        "pie" ;    
     }
+} */
+    /* responsive */
+
+    /* MAIN */
+
+.offer img{
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+	justify-content: space-between;
+    margin: 10px 10px;
+}
+
+.gallery figure p{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #ff5d7821;
+}
+
+.contador h2{
+    margin-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+  /* MAIN */
+
+    /* aside */
+
+#sideBar h2{
+    text-align: center;
+}
+
+#sideBar h3{
+    font-size: 1.5rem;
+}
+
+    /* aside */
+
 
 /* Nosotros */
 
