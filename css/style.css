@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
+    font-family: 'nunito', Geneva, Tahoma, sans-serif;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -8,8 +9,6 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'nunito', Geneva, Tahoma, sans-serif;
-    height: 100%;
 }
 
 body{
@@ -30,8 +29,11 @@ body{
 }
 
 nav{
+    display: flex;
     background-color: #ff5d77;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: sticky;
 }
 
@@ -39,13 +41,6 @@ nav{
         width:80px;
         height: 90px;
         padding: 7px 20px;
-        float: left;
-    }
-
-    nav h1{
-        color: white;
-        font-size: 2rem;
-        padding-top: 45px;
     }
 
     nav ul{
@@ -71,37 +66,32 @@ nav{
             nav ul li a:hover{
                 color: black;
                 text-decoration: underline;
+                font-weight: 600;
             } 
 
 header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #f1f1f1;
-    margin: 15px 7.8%;
+    margin-top: 15px;
     border-top: solid #8a8989 3px;
     border-bottom: solid #8a8989 3px;
 }
 
-.justifyContentSpaceAround{
-    justify-content: space-around;
-}
-
-.flexWrap{
-    flex-wrap: wrap;
-}
-
-     header section ul {
-        margin: 5px auto;
+    header section ul {
+        margin: 5px;
     }
     
         header section ul li p{
             color:black;
-            font-size: 2.7rem;
+            font-size: 2.3rem;
         }
         
         header section ul li a{
             color: #46bbe9;
             text-decoration: none;
             font-size: 2rem;
-            font-weight: 400;
         } 
 
             header section ul li a:hover{
@@ -132,7 +122,8 @@ header{
 footer{
     background-color: #f1f1f1;
     text-align: center;
-    margin: 15px 7.8%;
+    margin-top: 15px;
+    margin-bottom: 15px;
     padding: 10px 10px;
     border-top: solid #8a8989 4px;
     border-bottom: solid #8a8989 4px;
@@ -172,14 +163,14 @@ footer{
                 /* AREA GRID */
 .gridContainer{
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(2, 15% 70% 15%);
-    grid-template-rows: repeat(4,auto);
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
-    "nav nav nav"
-    "header header header"
-    "aside main mian"
-    "pie pie pie";
+    "nav"
+    "header"
+    "main"
+    "filtros"
+    "pie";
 }
 
 #nav{
@@ -190,54 +181,90 @@ footer{
     grid-area: header;
 }
 
-#sideBar{
-    grid-area: aside;
-    margin-left: 50%;
-    padding-left: 5px;
-    padding-top: 40px;
-    font-size: 2.5rem;
+#filtros{
+    grid-area: filtros;
 }
 
 #main{
     grid-area: main;
-    margin-right: 9.2%;
-
 }
 
 #pie{
     grid-area: pie;
-    margin-right: 6.7%;
 }
 
                 /* AREA GRID */
 
     /* responsive */
-/* @media (min-width: 600px){
+@media (min-width: 717px){
     .gridContainer{
-        grid-template-columns: 200px auto;
-        grid-template-columns: 20% 20% 10% 30% 20%;
+        grid-template-columns: 30vw 70vw;
         grid-template-areas:
-        "nav" 
-        "header"
-        "aside"
-        "main"
-        "pie" ;    
+        "nav nav" 
+        "header header"
+        "filtros main"
+        "pie pie" ;    
     }
-} */
+
+    .gallery{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    #filtros{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+} 
+
+@media (min-width: 1092px){
+    .gridContainer{
+        grid-template-columns: 20vw 70vw 10vw;
+        grid-template-areas:
+        "nav nav nav" 
+        "header header header"
+        "filtros main main"
+        "pie pie pie" ;    
+    }
+
+    #header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gallery figure{
+        flex-wrap: wrap;
+    }
+
+    #nav{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    /* #filtros{
+        flex-direction: column;
+        justify-content: flex-start;
+    } */
+} 
+
     /* responsive */
 
     /* MAIN */
 
-.offer img{
-    width: 500px;
-    height: 300px;
-    text-align: center;
-}
-
 .gallery{
     display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
     margin: 10px 10px;
+}
+
+.gallery figure{
+}
+
+.gallery figure img{
+    width: 200px;
+    height: auto;    
 }
 
 .gallery figure p{
