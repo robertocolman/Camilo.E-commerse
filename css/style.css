@@ -28,7 +28,7 @@ body{
     justify-content: right;
 }
 
-nav{
+.firstNav{
     display: flex;
     background-color: #ff5d77;
     flex-direction: column;
@@ -37,24 +37,24 @@ nav{
     position: sticky;
 }
 
-    nav a img{
+.firstNav a img{
         width:80px;
         height: 90px;
         padding: 7px 20px;
     }
 
-    nav ul{
+    .firstNav ul{
         padding-right: 15px;
         text-align: right;
         display: flex;
     }
 
-    nav ul li{
-       display: inline-block;
-       margin-left: 30px;
-    }
+        .firstNav ul li{
+        display: inline-block;
+        margin-left: 30px;
+        }
 
-        nav ul li a{
+        .firstNav ul li a{
             color: #ffff;
             text-decoration: none;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -63,7 +63,7 @@ nav{
             
         }
 
-            nav ul li a:hover{
+            .firstNav ul li a:hover{
                 color: black;
                 text-decoration: underline;
                 font-weight: 600;
@@ -98,6 +98,27 @@ header{
                 color: black;
                 text-decoration: underline;
             }
+
+.secondNav{
+    display: flex;
+    background-color: #ff5d782f;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 2cm;
+}
+
+.secondNav h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secondNav ul li a{
+    font-size: 2rem;
+    padding-left: 0.5cm;
+}
 
 .mainContents{
     background-color: #fdfdfd;
@@ -207,7 +228,6 @@ footer{
     }
 
     .gallery{
-        width: 90%;
         flex-wrap: wrap;
     }
 
@@ -218,7 +238,7 @@ footer{
     }
 } 
 
-@media (min-width: 1092px){
+@media (min-width: 957px){
     .gridContainer{
         grid-template-columns: 20vw 70vw 10vw;
         grid-template-areas:
@@ -256,14 +276,12 @@ footer{
 .gallery{
     display: flex;
 	flex-wrap: wrap;
+    justify-content: center;
     margin: 10px 10px;
 }
 
-.gallery figure{
-}
-
 .gallery figure img{
-    width: 200px;
+    width: auto;
     height: auto;    
 }
 
