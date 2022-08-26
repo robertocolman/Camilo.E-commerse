@@ -16,7 +16,7 @@ body{
     background-repeat: space;
 }
 
-.container{
+/* .container{
     display: flex;
 }
 
@@ -26,7 +26,7 @@ body{
 
 .justifyContentRight{
     justify-content: right;
-}
+} */
 
 .firstNav{
     display: flex;
@@ -34,7 +34,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: sticky;
 }
 
 .firstNav a img{
@@ -52,6 +51,7 @@ body{
         .firstNav ul li{
         display: inline-block;
         margin-left: 30px;
+        margin-bottom: 5px;
         }
 
         .firstNav ul li a{
@@ -74,7 +74,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     background-color: #f1f1f1;
-    margin-top: 15px;
+    margin: 15px 15px;
     border-top: solid #8a8989 3px;
     border-bottom: solid #8a8989 3px;
 }
@@ -106,45 +106,42 @@ header{
     justify-content: center;
     list-style: none;
     overflow: hidden;
-    padding-top: 2cm;
+    margin-left: 15px;
+    padding-top: 1cm;
 }
 
 .secondNav h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .secondNav ul li a{
-    font-size: 2rem;
-    padding-left: 0.5cm;
+    font-size: 1.5rem;
+    padding-left: 0.1cm;
 }
 
-.mainContents{
+.sectionContents{
     background-color: #fdfdfd;
-    margin: 5px 7.8%;
-    /* height: 450px; */
-    border-top: solid #f7f5f5 3px;
-    border-bottom: solid #f7f5f5 3px;
+    text-align: center;
+    margin: 15px 15px;
 }
 
-    .indexMainImage{
-        margin: 30px 30px;
-        width: 17cm;
-        height: 10cm;
+    .sectionContents img{
+        margin-top: 10px;
     }
 
-    .indexMainText{
+    .sectionContents h2{
         margin: auto 3%;
         font-size: 2.7rem;
+        text-align: justify;
     }
 
 
 footer{
     background-color: #f1f1f1;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 15px;
     padding: 10px 10px;
     border-top: solid #8a8989 4px;
     border-bottom: solid #8a8989 4px;
@@ -191,6 +188,7 @@ footer{
     "header"
     "main"
     "filtros"
+    "section"
     "pie";
 }
 
@@ -210,6 +208,10 @@ footer{
     grid-area: main;
 }
 
+#sectionMain{
+    grid-area: section;
+}
+
 #pie{
     grid-area: pie;
 }
@@ -217,60 +219,128 @@ footer{
                 /* AREA GRID */
 
     /* responsive */
-@media (min-width: 717px){
+
+@media (min-width: 662px){
     .gridContainer{
         grid-template-columns: 30vw 70vw;
         grid-template-areas:
         "nav nav" 
         "header header"
         "filtros main"
+        "section section"
         "pie pie" ;    
+        }
+
+    #header{
+        margin:15px 30px;
+    }
+
+    #pie{
+        margin:15px 30px;
     }
 
     .gallery{
-        flex-wrap: wrap;
+        justify-content:space-between;
+        margin-right: 0.3cm;
     }
-
+    
     #filtros{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        margin-left: 30px;
+
     }
+
 } 
 
-@media (min-width: 957px){
-    .gridContainer{
+@media (min-width: 944px){
+        .gridContainer{
         grid-template-columns: 20vw 70vw 10vw;
         grid-template-areas:
         "nav nav nav" 
         "header header header"
         "filtros main main"
+        "section section section"
         "pie pie pie" ;    
     }
 
     #header{
         display: flex;
         justify-content: space-around;
+        margin:15px 50px;
     }
 
-    .gallery figure{
-        flex-wrap: wrap;
+    #pie{
+        margin:15px 50px;
+    }
+
+    #main{
+        margin-right: 50px;
     }
 
     #nav{
         flex-direction: row;
         justify-content: space-between;
-        
     }
 
-    /* #filtros{
-        flex-direction: column;
-        justify-content: flex-start;
-    } */
-} 
+    #filtros{
+        margin-left: 50px;
+    }
 
-    /* responsive */
+        
+}
 
+@media (min-width: 1292px){
+    .gridContainer{
+        grid-template-columns: 20vw 70vw 10vw;
+        grid-template-areas:
+        "nav nav nav" 
+        "header header header"
+        "filtros chorra chorra"
+        "filtros main main"
+        "section section section"
+        "pie pie pie";    
+    }
+
+    #header{
+        margin:15px 100px;
+    }
+
+    #filtros{
+        margin-left: 100px;
+    }
+
+    #pie{
+        margin:15px 100px;
+    }
+
+    #main{
+        margin-right: 100px;
+    }
+
+    #sectionMain{
+        display: flex;
+        
+        background-color: #fdfdfd;
+        margin: 5px 7.8%;
+        border-top: solid #f7f5f5 3px;
+        border-bottom: solid #f7f5f5 3px;
+    }
+
+    #sectionMain img{
+        flex-wrap: wrap;
+        margin: 30px 30px;
+        width: 17cm;
+        height: 10cm;
+    }
+
+    .sectionMain h2{
+        margin: auto 3%;
+        font-size: 2.7rem;
+    }
+
+}
     /* MAIN */
 
 .gallery{
