@@ -297,7 +297,6 @@ footer{
         grid-template-areas:
         "nav nav nav" 
         "header header header"
-        "filtros chorra chorra"
         "filtros main main"
         "section section section"
         "pie pie pie";    
