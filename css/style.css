@@ -9,11 +9,13 @@
 
 html{
     font-size: 62.5%;
+
 }
 
 body{
     background-image: url(../img/fondo2.png);
     background-repeat: space;
+    /* border: black solid; */
 }
 
 /* .container{
@@ -301,7 +303,7 @@ footer{
 
 @media (min-width: 662px){
     .gridContainer{
-        grid-template-columns: 45vw 65vw;
+        grid-template-columns: 45   vw 65vw;
         grid-template-areas:
         "nav nav" 
         "header header"
