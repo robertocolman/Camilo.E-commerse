@@ -46,6 +46,11 @@ body{
         padding: 7px 20px;
     }
 
+    .firstNav a img:hover{
+        transform: translate(-20px, 10px);
+	    cursor: pointer;
+    }
+
     .firstNav ul{
         padding-right: 15px;
         text-align: right;
@@ -56,6 +61,12 @@ body{
         display: inline-block;
         margin-left: 30px;
         margin-bottom: 5px;
+        }
+
+        .firstNav ul li:hover{
+            transform: rotateZ(-6deg);
+            cursor: pointer;
+            transition: transform 0.2s;
         }
 
         .firstNav ul li a{
@@ -158,6 +169,12 @@ header{
 
     .sectionContents img{
         margin-top: 10px;
+        transition: all 300ms;
+        position: relative;
+    }
+    
+    .sectionContents img:hover{
+        transform: scale(1.1)
     }
 
     .sectionContents h2{
@@ -165,6 +182,32 @@ header{
         font-size: 2.7rem;
         text-align: justify;
     }
+
+.animaciones{
+    text-align: center;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 5rem;
+    margin: 15px auto;
+    /* font-family: "Courier New"; */
+    border-right: 0em solid #18beec00;
+    animation: typing 3s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+    @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+
 
 .mainProducts{
     border-radius: 20px 20px;
@@ -219,7 +262,30 @@ footer{
     footer h3{
         padding-bottom: 5px;
         font-size: 2.5rem;
+        text-align: center;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: auto auto;
+    /* font-family: "Courier New"; */
+    border-right: 0em solid #18beec00;
+    animation: typing 3s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+    @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
     }
+
+    
 
     footer a img{
     width: 90px;
@@ -251,6 +317,7 @@ footer{
     grid-template-rows: auto;
     grid-template-areas: 
     "nav"
+    "greeting"
     "header"
     "aside"
     "main"
@@ -293,6 +360,10 @@ footer{
     grid-area: contactUs;
 }
 
+#initialGreeting{
+    grid-area: greeting;
+}
+
 #pie{
     grid-area: pie;
 }
@@ -307,6 +378,7 @@ footer{
         grid-template-columns: 45   vw 65vw;
         grid-template-areas:
         "nav nav" 
+        "greeting greeting"
         "header header"
         "filtros main"
         "section section"
@@ -348,6 +420,7 @@ footer{
         grid-template-columns: 45vw 65vw;
         grid-template-areas:
         "nav nav" 
+        "greeting greeting"
         "header header"
         "filtros main"
         "section section"
@@ -391,6 +464,7 @@ footer{
         grid-template-columns: 20vw 70vw 10vw;
         grid-template-areas:
         "nav nav nav" 
+        "greeting greeting greeting"
         "header header header"
         "filtros main main"
         "section section section"
@@ -438,6 +512,7 @@ footer{
         grid-template-columns: 20vw 70vw 10vw;
         grid-template-areas:
         "nav nav nav" 
+        "greeting greeting greeting"
         "header header header"
         "filtros main main"
         "section section section"
