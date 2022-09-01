@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import 'animate.css';
 
 *{
     font-family: 'nunito', Geneva, Tahoma, sans-serif;
