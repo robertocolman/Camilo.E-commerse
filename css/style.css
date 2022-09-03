@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import 'animate.css';
+
+*{
+    font-family: 'nunito', Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    background-color: #e2dddd86;
+}
+
+.navColor{
+    background-color: #ffffff;
+    box-shadow: #00000086 0px 0px 20px;
+}
+
+    .navColor img{
+        width: 30%;
+        height: auto;
+    }
+
+.headerIndex{
+    margin-top: 1.5%;
+}
+
+.navbar-brand img{
+    width: 300px;
+    height: auto;
+}
+
+.card{
+    /* width: 540px; */
+}
+.card img{
+    width: 212px;
+    height: 298px;
+}
+
+/* .footerColor{
+    background-color: #ff002b;
+} */
