@@ -8,8 +8,18 @@
     list-style: none;
 }
 
+
 body{
     background-color: #e2dddd86;
+}
+
+.h1, h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
 .navColor{
