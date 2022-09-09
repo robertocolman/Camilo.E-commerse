@@ -1,66 +1,111 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camilo E-commerce</title>
-    <link rel="shortcut icon" href="img/logo.pestaña2.png" type="imagen/x-icon">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="gridContainer">
-    <nav id="nav" class="firstNav">
-            <a href="index.html">
-                <img src="img/logo2.png" alt="Logo de camilo E-commerce">
-            </a>
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-        </ul> 
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- Empieza nav -->
+    <nav class="navbar navbar-expand-lg navbar-light navCss">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/navIcon.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class=" active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="ofertas.html">¡Ofertas!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <header id="header">
-        <section>
-           <a href="productos/alimento-viaje.html">
-            <img src="img/header1.png" alt="">
-           </a>
-        </section>
-        <section>    
-            <a href="productos/ropa-viaje.html">
-                <img src="img/header2.png" alt="">
-               </a>
-        </section>
-        <section>
-            <a href="productos/articulos-viaje.html">
-                <img src="img/header3.png" alt="">
-            </a>
-        </section>
-    </header>
-    <section id="sectionAboutId" class="sectionAbout">
-       <img src="img/imagen-nosotros.jpg" alt="sobre nosotros">
-        <h2>Sobre nosotros</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi et perspiciatis distinctio sunt, illum laborum quia sequi rem cum. Obcaecati rem consequatur ab culpa debitis, sed harum aperiam nemo enim?</p>
+    <!-- termina Nav -->
+
+    <!-- Incio sobre nosotros -->
+    
+    <section class="sectionCss">
+      <div class="card">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Sobre nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ubicacion.html">Ubicacion de nuestro local</a>
+              </li>
+            </ul>
+          </div>
+          <div class="card-body sectionCss2">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-5">
+              <img src="img/imagen-nosotros.jpg" class="rounded-pill w-75 h-75 border" alt="">
+            </div>
+            <div class="col-lg-7 sobreMi">
+              <h1 class="card-title ">Sobre Camilo E-commerce</h1>
+              <p class="card-text mx-5 pe-5 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita obcaecati sed quos nemo earum! Eum fuga aut excepturi, eos odio ratione ducimus optio, saepe possimus maxime beatae incidunt quibusdam quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita obcaecati sed quos nemo earum! Eum fuga aut excepturi, eos odio ratione ducimus optio, saepe possimus maxime beatae incidunt quibusdam quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita obcaecati sed quos nemo earum! Eum fuga aut excepturi, eos odio ratione ducimus optio, saepe possimus maxime beatae incidunt quibusdam quo.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer class="text-center" id="pie"> 
-        <h3>
-            Seguinos en nuestras redes sociales
-        </h3>
-        <a href="https://www.coderhouse.com/" target="_blank">
-            <img src="img/facebook.png" alt="facebook">
-        </a>
-        <a href="https://www.coderhouse.com/" target="_blank">
-            <img src="img/instragram.png" alt="instagram">
-        </a>
-        <a href="https://www.coderhouse.com/" target="_blank">
-            <img src="img/youtube2.png" alt="youtube">
-        </a>
+    <!-- term. sobre nosotros -->
+    
+    <!-- empieza footer -->
+
+    <footer class="footerCss">
+      <div class="container">
+        <section class="mb-4 d-flex justify-content-center">
+          <a
+            class="btn btn-link btn-floating btn-lg m-1"
+            href="https://www.coderhouse.com/" target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="img/facebook.svg" alt=""></a>
+          <a
+            class="btn btn-link btn-floating btn-lg m-1"
+            href="https://www.coderhouse.com/" target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="img/instagram.svg" alt=""></a>
+          <a
+            class="btn btn-link btn-floating btn-lg m-1"
+            href="https://www.coderhouse.com/" target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="img/youtube.svg" alt=""></a>
+          <a
+            class="btn btn-link btn-floating btn-lg m-1"
+            href="https://www.coderhouse.com/" target="_blank"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><img src="img/code.svg" alt=""></a>
+      </div>
+      <div class="copyRight">
+        © 2022 Copyright:
+        <a href="https://www.coderhouse.com/" target="_blank">Coderhouse</a>
+      </div>
     </footer>
-</body>
+
+
+    <!-- termina footer -->
+  </body>
 </html>
+      
