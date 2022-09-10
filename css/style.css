@@ -12,10 +12,6 @@ body{
     background-color: #e2dddd86;
 }
 
-p{
-    font-size: 1.5rem;
-    text-align: justify;
-}
 
 /*  *//*  *//*  *//*  *//*  *//*  */
 
@@ -149,6 +145,8 @@ p{
     color: black;
     text-align: justify;
     margin-bottom: 5%;
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
 .sobreMi h1{

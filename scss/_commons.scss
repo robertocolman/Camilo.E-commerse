@@ -1,0 +1,16 @@
+$mainColor: rgb(0, 0, 0);
+$secondaryColor: rgb(255, 255, 255);
+$navColor: rgb(250, 34, 34);
+$aboutMeColor: rgb(255, 0, 0);
+$footerColor: rgba(58, 56, 56, 0.2);
+$bodyColor: #e2dddd86;
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    background-color: $bodyColor;
+}
