@@ -10,7 +10,6 @@ body {
 
 .navCss {
   background-color: rgb(250, 34, 34);
-  position: sticky;
   box-shadow: rgba(0, 0, 0, 0.5254901961) 0px 0px 20px;
 }
 .navCss img {
@@ -29,7 +28,7 @@ body {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400px;
 }
 .navCss ul a:hover {
@@ -84,30 +83,16 @@ body {
   color: rgb(255, 0, 0);
   text-align: center;
   margin-bottom: 1.5rem;
-  padding-right: 1.8rem;
+  padding-right: 2rem;
   height: 1.5rem;
   padding-bottom: 5px;
-}
-
-.sectionCss2 h3 {
-  color: rgb(0, 0, 0);
-  text-align: justify;
-  font-size: 1rem;
-  margin-bottom: 2%;
-}
-.sectionCss2 p {
-  color: rgb(0, 0, 0);
-  text-align: justify;
-  margin-bottom: 5%;
-  font-size: 1rem;
-  text-align: justify;
 }
 
 .sobreMi h1 {
   color: rgb(255, 0, 0);
   text-align: center;
   margin-bottom: 1.5rem;
-  padding-right: 1.8rem;
+  padding-right: 2rem;
   height: 1.5rem;
   padding-bottom: 5px;
 }

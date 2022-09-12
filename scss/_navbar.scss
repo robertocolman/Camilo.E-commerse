@@ -1,6 +1,5 @@
 .navCss{
     background-color: $navColor;
-    position: sticky;
     box-shadow: #00000086 0px 0px 20px;
     img{
         width: 30%;
@@ -17,7 +16,7 @@
                 color: $mainColor;
                 text-decoration: none;
                 font-family: $secondaryFont;
-                font-size: 1.3rem;
+                font-size: $secondFonts;
                 font-weight: 400px;
                 &:hover{
                     color: $secondaryColor;

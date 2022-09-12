@@ -1,32 +1,16 @@
 .sectionCss{
     text-align: center;
     img{
-        margin-top: 3rem;
-        margin-left: 3rem;
+        margin-top: $sixthFonts;
+        margin-left: $sixthFonts;
     }
     h2{
         color: $aboutMeColor;
         text-align: center;
-        margin-bottom: 1.5rem;
-        padding-right: 1.8rem;
-        height: 1.5rem;
+        margin-bottom: $thirdFonts;
+        padding-right: $fourtFonts;
+        height: $thirdFonts;
         padding-bottom: 5px;
-    }
-}
-
-.sectionCss2{
-    h3{
-        color: $mainColor;
-        text-align: justify;
-        font-size: 1rem;
-        margin-bottom: 2%;
-    }
-    p{
-        color: $mainColor;
-        text-align: justify;
-        margin-bottom: 5%;
-        font-size: 1rem;
-        text-align: justify;
     }
 }
 
@@ -34,9 +18,9 @@
     h1{
         color: $aboutMeColor;
         text-align: center;
-        margin-bottom: 1.5rem;
-        padding-right: 1.8rem;
-        height: 1.5rem;
+        margin-bottom: $thirdFonts;
+        padding-right: $fourtFonts;
+        height: $thirdFonts;
         padding-bottom: 5px;
     }
 }
