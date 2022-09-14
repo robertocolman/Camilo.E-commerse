@@ -1,0 +1,9 @@
+
+@mixin hSectionSobreMi($color, $align, $marginB, $paddingR, $height, $paddingB){
+    color: $color;
+    text-align: $align;
+    margin-bottom: $marginB;
+    padding-right: $paddingR;
+    height: $height;
+    padding-bottom: $paddingB;
+}

@@ -5,22 +5,12 @@
         margin-left: $sixthFonts;
     }
     h2{
-        color: $aboutMeColor;
-        text-align: center;
-        margin-bottom: $thirdFonts;
-        padding-right: $fourtFonts;
-        height: $thirdFonts;
-        padding-bottom: 5px;
+        @include hSectionSobreMi($aboutMeColor, center, $thirdFonts, $fourtFonts, $thirdFonts, 5px)
     }
 }
 
 .sobreMi{
     h1{
-        color: $aboutMeColor;
-        text-align: center;
-        margin-bottom: $thirdFonts;
-        padding-right: $fourtFonts;
-        height: $thirdFonts;
-        padding-bottom: 5px;
+        @include hSectionSobreMi($aboutMeColor, center, $thirdFonts, $fourtFonts, $thirdFonts, 5px)
     }
 }

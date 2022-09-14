@@ -72,6 +72,22 @@ body {
   height: 298px;
 }
 
+.btn-color, .btn-rounded {
+  padding-bottom: 33px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.btn-color:hover, .btn-rounded:hover {
+  background: linear-gradient(to top, red, #e90d0d);
+}
+
+.btn-rounded {
+  border-radius: 3px;
+}
+
 .sectionCss {
   text-align: center;
 }
