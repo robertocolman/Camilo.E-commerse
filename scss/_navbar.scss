@@ -1,5 +1,5 @@
 .navCss{
-    background-color: $navColor;
+    background-color: map-get($map: $paleta, $key: 'thirdColor');
     box-shadow: #00000086 0px 0px 20px;
     img{
         width: 30%;

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -94,8 +95,10 @@ body {
 .sectionCss img {
   margin-top: 3rem;
   margin-left: 3rem;
+  width: 80%;
+  height: 80%;
 }
-.sectionCss h2 {
+.sectionCss h1 {
   color: rgb(255, 0, 0);
   text-align: center;
   margin-bottom: 1.5rem;
@@ -113,18 +116,37 @@ body {
   padding-bottom: 5px;
 }
 
-.sectionCss2 h3 {
-  color: rgb(0, 0, 0);
-  text-align: justify;
-  font-size: 1.5rem;
-  margin-bottom: 2%;
+.sectionCss2 h1 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3%;
 }
 .sectionCss2 p {
   color: rgb(0, 0, 0);
   text-align: justify;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   font-size: 1.5rem;
   text-align: justify;
+}
+
+.ubicacionCss {
+  width: 90%;
+  height: 500px;
+  padding: 20px;
+  border-top: solid #8a8989 2px;
+  border-bottom: solid #8a8989 2px;
+}
+
+.mainTitle h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgba(158, 133, 133, 0.2666666667);
+  border-top: solid #8a8989 2px;
+  border-bottom: solid #8a8989 2px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .footerCss section {

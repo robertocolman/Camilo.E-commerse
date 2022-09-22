@@ -1,15 +1,24 @@
 .sectionCss2{
-    h3{
-        color: $mainColor;
-        text-align: justify;
-        font-size: $thirdFonts;
-        margin-bottom: 2%;
+    h1{
+        color: $aboutMeColor;
+        text-align: center;
+        font-size: $fifthFonts;
+        margin-bottom: 3%;
     }
     p{
         color: $mainColor;
         text-align: justify;
-        margin-bottom: 5%;
+        margin-bottom: 2%;
         font-size: $thirdFonts;
         text-align: justify;
     }
+}
+
+.ubicacionCss{
+    width: 90%;
+    height: 500px;
+    padding: 20px;
+    border-top: solid #8a8989 2px;
+    border-bottom: solid #8a8989 2px;
+    
 }

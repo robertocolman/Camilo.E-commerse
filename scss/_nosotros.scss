@@ -3,8 +3,11 @@
     img{
         margin-top: $sixthFonts;
         margin-left: $sixthFonts;
+        width: 80%;
+        height: 80%;
+
     }
-    h2{
+    h1{
         @include hSectionSobreMi($aboutMeColor, center, $thirdFonts, $fourtFonts, $thirdFonts, 5px)
     }
 }

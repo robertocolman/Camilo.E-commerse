@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="La ropa son de buenas calidades y accesible a todos">
+    <meta name="keywords" content="Tienda ropa niño varon mujer unisex edades">
+    <meta name="author" content="Roberto colman">
+    <title>Inicio | Ropa de temporada</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -14,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navCss">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="img/navIcon.jpg" alt="">
+          <img src="img/navIcon.jpg" alt="Logo principal de la barra de navegación">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,51 +29,66 @@
               <a class=" active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="" href="contacto.html">Contacto</a>
+              <a href="contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="" href="nosotros.html">Nosotros</a>
+              <a href="nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="" href="ofertas.html">¡Ofertas!</a>
+              <a href="ofertas.html">¡Ofertas!</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <!-- termina Nav -->
 
     <!-- empieza header -->
+
     <header class="carrouselCss">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/carrusel1.jpg" class="" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/carrusel2.jpg" class="" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/carrusel3.jpg" class="" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrusel1.jpg" alt="Imagen prinicpal de la tienda">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel2.jpg" alt="Imagen de trabajamos con toda las tarjetas">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrusel3.jpg" alt="Imagen de variedades para todas las edades">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
+    
     <!-- termina header -->
 
+    <!-- Comienza main titulo -->
+
+    <section class="mainTitle">
+      <div>
+        <h1>Productos de nuestra tienda | Camilo-Ecommerse</h1>
+      </div>
+    </section>
+
+    <!-- termina main titulo -->
+
+    <!-- Comienza Filtro -->
+    
     <aside class="asideCss">
       <div class="container">
         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 list-unstyled">
@@ -86,11 +105,13 @@
             <div class="p-3 border bg-light animation">Deportes</div>
           </div>
           <div class="col">
-            <div class="p-3 border bg-light animation"><a href="ofertas.html">¡Ofertas!</a></div>
+            <a href="ofertas.html"><div class="p-3 border bg-light animation">¡Ofertas!</div></a>
           </div>
         </div>
       </div>
     </aside>
+
+    <!-- Termina Filtro -->
 
     <!-- Incio cards -->
 
@@ -99,9 +120,9 @@
         <div class="row">
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">
             <div class="card">
-              <img src="img/ropa/producto1.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto1.jpg" class="rounded mx-auto d-block pt-3" alt="Remera varon color Marron">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Remera manga larga marron Talle L</h3>
+                <h2 class="card-title fs-5">Remera manga larga marron Talle L</h2>
                 <div class="row">
                   <p class="col card-text text-end text-danger text-decoration-line-through">$2000</p>
                   <p class="col card-text text-start">$1700</p>
@@ -113,9 +134,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card ">
-              <img src="img/ropa/producto2.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto2.jpg" class="rounded mx-auto d-block pt-3" alt="Remera verde color Marron">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Remera Manga Larga Verde Talle XL</h3>
+                <h2 class="card-title fs-5">Remera Manga Larga Verde Talle XL</h2>
                 <p class="card-text text-center">$1700</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -123,9 +144,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto3.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto3.jpg" class="rounded mx-auto d-block pt-3" alt="Pantalon Varon color gris">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Pantalon Claro talle XL</h3>
+                <h2 class="card-title fs-5">Pantalon Claro talle XL</h2>
                 <p class="card-text text-center">$2400</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -133,9 +154,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto4.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto4.jpg" class="rounded mx-auto d-block pt-3" alt="Pantalon Varon color oscuro">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Vaquero oscuro talle L</h3>
+                <h2 class="card-title fs-5">Vaquero oscuro talle L</h2>
                 <p class="card-text text-center">$2500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -143,7 +164,7 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto5.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto5.jpg" class="rounded mx-auto d-block pt-3" alt="Pantalon mujer color claro">
               <div class="card-body text-center">
                 <h3 class="card-title fs-5">Jean Claro Mujer Talle M</h3>
                 <p class="card-text text-center">$2000</p>
@@ -153,9 +174,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto6.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto6.jpg" class="rounded mx-auto d-block pt-3" alt="Zapatilla mujer color roza">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Zapatilla Roza Talle 37-39</h3>
+                <h2 class="card-title fs-5">Zapatilla Roza Talle 37-39</h2>
                 <p class="card-text text-center">$2500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -163,9 +184,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto7.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto7.jpg" class="rounded mx-auto d-block pt-3" alt="Zapatilla color negro">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Zapatilla Negra Talle 38-43</h3>
+                <h2 class="card-title fs-5">Zapatilla Negra Talle 38-43</h2>
                 <div class="row">
                   <p class="col card-text text-end text-danger text-decoration-line-through">$2500</p>
                   <p class="col card-text text-start">$2000</p>
@@ -176,9 +197,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto8.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto8.jpg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color bordo">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Campera Bordó Talle XL</h3>
+                <h2 class="card-title fs-5">Campera Bordó Talle XL</h2>
                 <p class="card-text text-center">$5500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -186,9 +207,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto9.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto9.jpg" class="rounded mx-auto d-block pt-3" alt="Zapatilla varon color negro y azul">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Zapatilla Negra Talle 35-40</h3>
+                <h2 class="card-title fs-5">Zapatilla Negra Talle 35-40</h2>
                 <p class="card-text text-center">$4500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -196,9 +217,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto10.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto10.jpg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color azul">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Campera Violeta Talle L</h3>
+                <h2 class="card-title fs-5">Campera Violeta Talle L</h2>
                 <p class="card-text text-center">$500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -206,9 +227,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto11.jpg" class="rounded mx-auto d-block pt-3" alt="...">
+              <img src="img/ropa/producto11.jpg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color negro">
               <div class="card-body text-center">
-                <h3 class="card-title fs-5">Campera Negra Talle XXL</h3>
+                <h2 class="card-title fs-5">Campera Negra Talle XXL</h2>
                 <p class="card-text text-center">$7000</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -217,37 +238,38 @@
         </div>
       </div>
     </main>
+
     <!-- term. cards -->
     
     <!-- empieza footer -->
 
     <footer class="footerCss">
       <div class="container">
-        <section class="d-flex justify-content-center">
+        <section class="mb-4 d-flex justify-content-center">
           <a
-            class="btn btn-link btn-floating btn-lg"
+            class="btn btn-link btn-floating btn-lg m-1"
             href="https://www.coderhouse.com/" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="img/facebook.svg" alt=""></a>
+            ><img src="img/facebook.svg" alt="Logo de Facebook"></a>
           <a
-            class="btn btn-link btn-floating btn-lg"
+            class="btn btn-link btn-floating btn-lg m-1"
             href="https://www.coderhouse.com/" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="img/instagram.svg" alt=""></a>
+            ><img src="img/instagram.svg" alt="Logo de instagram"></a>
           <a
-            class="btn btn-link btn-floating btn-lg"
+            class="btn btn-link btn-floating btn-lg m-1"
             href="https://www.coderhouse.com/" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="img/youtube.svg" alt=""></a>
+            ><img src="img/youtube.svg" alt="Logo de Youtube"></a>
           <a
-            class="btn btn-link btn-floating btn-lg"
+            class="btn btn-link btn-floating btn-lg m-1"
             href="https://www.coderhouse.com/" target="_blank"
             role="button"
             data-mdb-ripple-color="dark"
-            ><img src="img/code.svg" alt=""></a>
+            ><img src="img/code.svg" alt="Logo de Corderhouse"></a>
       </div>
       <div class="copyRight">
         © 2022 Copyright:
@@ -256,6 +278,7 @@
     </footer>
 
     <!-- termina footer -->
+    
   </body>
 </html>
       
