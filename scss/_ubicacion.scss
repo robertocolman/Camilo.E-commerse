@@ -3,14 +3,16 @@
         color: $aboutMeColor;
         text-align: center;
         font-size: $fifthFonts;
-        margin-bottom: 3%;
+        margin-top: 2%;
+    }
+    h2{
+        margin-bottom: 2%;
     }
     p{
         color: $mainColor;
-        text-align: justify;
-        margin-bottom: 2%;
         font-size: $thirdFonts;
         text-align: justify;
+        margin: 2% 2%;
     }
 }
 
@@ -20,5 +22,4 @@
     padding: 20px;
     border-top: solid #8a8989 2px;
     border-bottom: solid #8a8989 2px;
-    
 }
