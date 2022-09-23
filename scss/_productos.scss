@@ -1,0 +1,27 @@
+.mainCss{
+    padding: 20px;
+    article{
+        margin-bottom: $thirdFonts;
+    }
+    img{
+        width: 212px;
+        height: 298px;
+    }
+}
+
+.btn-color{
+    padding-bottom: 33px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    &:hover{
+        background: linear-gradient(to top, red, #e90d0d);
+    }
+}
+
+.btn-rounded{
+    @extend .btn-color;
+    border-radius: 3px;
+}

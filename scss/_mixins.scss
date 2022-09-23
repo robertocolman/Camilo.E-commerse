@@ -1,0 +1,13 @@
+@mixin hSectionSobreMi($color, $align, $marginB, $height, $paddingB){
+    color: $color;
+    text-align: $align;
+    margin-bottom: $marginB;
+    height: $height;
+    padding-bottom: $paddingB;
+}
+
+$paleta:(
+    'firstColor': rgb(0, 0, 0),
+    'secondColor': rgb(255, 255, 255),
+    'thirdColor': rgb(250, 34, 34),
+)

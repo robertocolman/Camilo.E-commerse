@@ -1,0 +1,18 @@
+.footerCss{
+    section{
+        margin-bottom: $thirdFonts;
+    }
+        a{
+            margin: $firstFonts;
+        }
+}
+
+.copyRight{
+    text-align: center;
+    color: $mainColor;
+    padding: $secondFonts;
+    background-color: $footerColor;
+    a{
+        color: $mainColor;
+    }
+}

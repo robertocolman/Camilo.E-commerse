@@ -1,0 +1,8 @@
+.ofertaCss{
+    text-align: center;
+    color: map-get($map: $paleta, $key: 'secondColor');;
+    padding-top: $thirdFonts;
+    a{
+        color: $mainColor;
+    }
+}

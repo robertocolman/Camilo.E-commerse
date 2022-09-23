@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <meta name="description" content="La ropa son de buenas calidades y accesible a todos">
-    <meta name="keywords" content="Tienda ropa niño varon mujer unisex edades">
+    <meta name="description" content="Ofertas sobre ropa segun la temporada">
+    <meta name="keywords" content="ofertas ropa pantalon argentina malvinas ruta40">
     <meta name="author" content="Roberto colman">
-    <title>Inicio | Ropa de temporada</title>
+    <title>Ofertas | Ropa cambio de temporada</title>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Empieza nav -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+    <!-- Empieza nav -->
+
     <nav class="navbar navbar-expand-lg navbar-light navCss">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -44,51 +44,43 @@
 
     <!-- termina Nav -->
 
-    <!-- empieza header -->
+    <!-- Inicia carrousel -->
 
     <header class="carrouselCss">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+      <div id="carouselExampleInterval" class="carousel slide mt-3" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/carrusel1.svg" alt="Imagen prinicpal de la tienda">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/carrusel4.svg" class="d-block w-100" alt="Imagen carrousel vistete con la celeste y blanca">
           </div>
-          <div class="carousel-item">
-            <img src="img/carrusel2.svg" alt="Imagen de trabajamos con toda las tarjetas">
-          </div>
-          <div class="carousel-item">
-            <img src="img/carrusel3.svg" alt="Imagen de variedades para todas las edades">
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carrusel5.svg" class="d-block w-100" alt="Imagen de kit para todas las edades">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </header>
-    
-    <!-- termina header -->
+
+    <!-- termina carrousel -->
 
     <!-- Comienza main titulo -->
 
     <section class="mainTitle">
       <div>
-        <h1>Productos de nuestra tienda | Camilo-Ecommerse</h1>
+        <h1>Ofertas | Cambio de temporada</h1>
       </div>
-    </section>
+    </section> 
 
-    <!-- termina main titulo -->
+    <!-- Termina main titulo -->
 
     <!-- Comienza Filtro -->
-    
+
     <aside class="asideCss">
       <div class="container">
         <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 list-unstyled">
@@ -110,23 +102,20 @@
         </div>
       </div>
     </aside>
-
-    <!-- Termina Filtro -->
+    
+    <!-- Comienza Filtro -->
 
     <!-- Incio cards -->
 
     <main class="mainCss">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row ">
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">
             <div class="card">
-              <img src="img/ropa/producto1.svg" class="rounded mx-auto d-block pt-3" alt="Remera varon color Marron">
+              <img src="img/ropa/oferta seleccion/producto1.svg" class="rounded mx-auto d-block pt-3" alt="Remera isla malvinas">
               <div class="card-body text-center">
-                <h2 class="card-title fs-5">Remera manga larga marron Talle L</h2>
-                <div class="row">
-                  <p class="col card-text text-end text-danger text-decoration-line-through">$2000</p>
-                  <p class="col card-text text-start">$1700</p>
-                </div>
+                <h2 class="card-title fs-5">Campera Islas malvinas talle L</h2>
+                <p class="card-text text-center">$1500</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
             </div>
@@ -134,9 +123,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card ">
-              <img src="img/ropa/producto2.svg" class="rounded mx-auto d-block pt-3" alt="Remera verde color Marron">
+              <img src="img/ropa/oferta seleccion/producto2.svg" class="rounded mx-auto d-block pt-3" alt="Remera vamos Argentina">
               <div class="card-body text-center">
-                <h2 class="card-title fs-5">Remera Manga Larga Verde Talle XL</h2>
+                <h2 class="card-title fs-5">Remera Vamos Argentina Talle XXL</h2>
                 <p class="card-text text-center">$1700</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -144,29 +133,9 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto3.svg" class="rounded mx-auto d-block pt-3" alt="Pantalon Varon color gris">
+              <img src="img/ropa/oferta seleccion/producto3.svg" class="rounded mx-auto d-block pt-3" alt="Remera ruta 40">
               <div class="card-body text-center">
-                <h2 class="card-title fs-5">Pantalon Claro talle XL</h2>
-                <p class="card-text text-center">$2400</p>
-                <a href="#" class="btn btn-color">Comprar</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
-            <div class="card">
-              <img src="img/ropa/producto4.svg" class="rounded mx-auto d-block pt-3" alt="Pantalon Varon color oscuro">
-              <div class="card-body text-center">
-                <h2 class="card-title fs-5">Vaquero oscuro talle L</h2>
-                <p class="card-text text-center">$2500</p>
-                <a href="#" class="btn btn-color">Comprar</a>
-              </div>
-            </div>
-          </article>
-          <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
-            <div class="card">
-              <img src="img/ropa/producto5.svg" class="rounded mx-auto d-block pt-3" alt="Pantalon mujer color claro">
-              <div class="card-body text-center">
-                <h3 class="card-title fs-5">Jean Claro Mujer Talle M</h3>
+                <h2 class="card-title fs-5">Remera Ruta 40 Talle L-XXL</h2>
                 <p class="card-text text-center">$2000</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
@@ -174,64 +143,81 @@
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto6.svg" class="rounded mx-auto d-block pt-3" alt="Zapatilla mujer color roza">
+              <img src="img/ropa/oferta seleccion/producto4.svg" class="rounded mx-auto d-block pt-3" alt="Remera soldados argentinos">
               <div class="card-body text-center">
-                <h2 class="card-title fs-5">Zapatilla Roza Talle 37-39</h2>
-                <p class="card-text text-center">$2500</p>
+                <h2 class="card-title fs-5">Remera Argentina Talle L-XXL</h2>
+                <p class="card-text text-center">$1900</p>
+                <a href="#" class="btn btn-color">Comprar</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-12 col-md-6 col-lg-3  px-sm-5 px-md-2">            
+            <div class="card">
+              <img src="img/ropa/oferta seleccion/producto5.svg" class="rounded mx-auto d-block pt-3" alt="Campera varon Argentina">
+              <div class="card-body text-center">
+                <h2 class="card-title fs-5">Buzo Argentina Talle M-XXL</h2>
+                <p class="card-text text-center">$3300</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
             </div>
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto7.svg" class="rounded mx-auto d-block pt-3" alt="Zapatilla color negro">
+              <img src="img/ropa/oferta seleccion/producto6.svg" class="rounded mx-auto d-block pt-3" alt="Buso vamos Argentina">
               <div class="card-body text-center">
-                <h2 class="card-title fs-5">Zapatilla Negra Talle 38-43</h2>
-                <div class="row">
-                  <p class="col card-text text-end text-danger text-decoration-line-through">$2500</p>
-                  <p class="col card-text text-start">$2000</p>
-                </div>
+                <h2 class="card-title fs-5">Buzo Vamos Argentina Talle M-XXL</h2>
+                <p class="card-text text-center">$3000</p>
                 <a href="#" class="btn btn-color">Comprar</a>
               </div>
             </div>
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto8.svg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color bordo">
-              <div class="card-body text-center">
-                <h2 class="card-title fs-5">Campera Bordó Talle XL</h2>
-                <p class="card-text text-center">$5500</p>
-                <a href="#" class="btn btn-color">Comprar</a>
+              <img src="img/ropa/oferta seleccion/producto7.svg" class="rounded mx-auto d-block pt-3" alt="Remera calavera Argentina">
+              <div class="card-body text-center">              
+                <h2 class="card-title fs-5">Remera Manga larga Talle M-XXL</h2>
+                <p class="card-text text-center">$2000</p>
+                <a href="#" class="btn btn-color">Comprar</a>            
               </div>
             </div>
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto9.svg" class="rounded mx-auto d-block pt-3" alt="Zapatilla varon color negro y azul">
-              <div class="card-body text-center">
-                <h2 class="card-title fs-5">Zapatilla Negra Talle 35-40</h2>
-                <p class="card-text text-center">$4500</p>
-                <a href="#" class="btn btn-color">Comprar</a>
+              <img src="img/ropa/oferta seleccion/producto8.svg" class="rounded mx-auto d-block pt-3" alt="Argentina maracanazo 2021">
+              <div class="card-body text-center">              
+                <h2 class="card-title fs-5">Remera Campeon Maracanazo Talle L-XXL</h2>
+                <p class="card-text text-center">$1800</p>
+                <a href="#" class="btn btn-color">Comprar</a>            
               </div>
             </div>
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto10.svg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color azul">
-              <div class="card-body text-center">
-                <h2 class="card-title fs-5">Campera Violeta Talle L</h2>
-                <p class="card-text text-center">$500</p>
-                <a href="#" class="btn btn-color">Comprar</a>
+              <img src="img/ropa/oferta seleccion/producto9.svg" class="rounded mx-auto d-block pt-3" alt="Remera de Belgrano">
+              <div class="card-body text-center">              
+                <h2 class="card-title fs-5">Buzo Argentina Talle XXL</h2>
+                <p class="card-text text-center">$2000</p>
+                <a href="#" class="btn btn-color">Comprar</a>            
               </div>
             </div>
           </article>
           <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
             <div class="card">
-              <img src="img/ropa/producto11.svg" class="rounded mx-auto d-block pt-3" alt="Campera mujer color negro">
-              <div class="card-body text-center">
-                <h2 class="card-title fs-5">Campera Negra Talle XXL</h2>
-                <p class="card-text text-center">$7000</p>
-                <a href="#" class="btn btn-color">Comprar</a>
+              <img src="img/ropa/oferta seleccion/producto10.svg" class="rounded mx-auto d-block pt-3" alt="Campera Argentina">
+              <div class="card-body text-center">              
+                <h2 class="card-title fs-5">Buzo Argentina Talle XXL</h2>
+                <p class="card-text text-center">$3300</p>
+                <a href="#" class="btn btn-color">Comprar</a>            
+              </div>
+            </div>
+          </article>
+          <article class="col-sm-12 col-md-6 col-lg-3 px-sm-5 px-md-2">            
+            <div class="card">
+              <img src="img/ropa/oferta seleccion/producto11.svg" class="rounded mx-auto d-block pt-3" alt="Campera Argentina">
+              <div class="card-body text-center">              
+                <h2 class="card-title fs-5">Buzo Argentina Talle XL</h2>
+                <p class="card-text text-center">$3000</p>
+                <a href="#" class="btn btn-color">Comprar</a>               
               </div>
             </div>
           </article>
@@ -281,4 +267,3 @@
     
   </body>
 </html>
-      
