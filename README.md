@@ -15,7 +15,7 @@ Es una pagina maquetada con html y css orientada hacia un e-commerse. Se usaron 
 Roberto Colman
 
 ## Estado del proyecto
-el proyecyo demoró 2 meses y 2 semanas. El proyecto ahora se encuentra finalizado pero aún se sigue haciendo algunos testeos de seguridad.
+el proyecto demoró 2 meses y 2 semanas. El proyecto ahora se encuentra finalizado pero aún se sigue haciendo algunos testeos de seguridad.
 
 ## instalación
 Boobstrap 5: https://getbootstrap.com/
