@@ -14,7 +14,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.5254901961) 0px 0px 20px;
 }
 .navCss img {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 .navCss ul {
@@ -29,7 +29,7 @@ body {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 400px;
 }
 .navCss ul a:hover {
@@ -158,6 +158,21 @@ body {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+}
+.notFound img {
+  width: 65%;
+  margin-top: 3%;
+}
+
+.notButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
 }
 
 .footerCss section {
